@@ -1,0 +1,59 @@
+name: Check MSCatalogLTS Version
+
+# Notify-only: opens a GitHub issue when a newer MSCatalogLTS version is published to
+# the PowerShell Gallery than the one pinned in config.json. It never edits config and
+# never opens a PR — adoption stays a deliberate one-field PR (see README).
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'     # Monday 08:00 UTC
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compare pinned vs latest
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $cfg = Get-Content ./config.json -Raw | ConvertFrom-Json
+          $pinned = [version]$cfg.mscataloglts_version
+          $latest = [version](Find-Module -Name MSCatalogLTS -Repository PSGallery -ErrorAction Stop).Version
+          Write-Host "Pinned: $pinned  Latest: $latest"
+
+          if ($latest -le $pinned) {
+            Write-Host "Up to date; nothing to do."
+            return
+          }
+
+          $title = "MSCatalogLTS $latest available (pinned $pinned)"
+
+          # Dedup: skip if an open issue for this exact version already exists.
+          $existing = gh issue list --state open --search "$latest in:title" --json title |
+            ConvertFrom-Json
+          if ($existing | Where-Object { $_.title -eq $title }) {
+            Write-Host "Issue already open for $latest; skipping."
+            return
+          }
+
+          gh label create dependencies --color 0366d6 --description "Dependency updates" 2>$null
+          $body = @"
+          A newer MSCatalogLTS version is available on the PowerShell Gallery.
+
+          - Pinned (config.json): ``$pinned``
+          - Latest (PSGallery): ``$latest``
+          - Release notes: https://github.com/Marco-online/MSCatalogLTS/releases
+
+          To adopt: bump ``mscataloglts_version`` in config.json on a branch, run the
+          **Update Feed** workflow via workflow_dispatch (or ``pwsh ./scripts/Update-Feed.ps1``)
+          to validate, then merge.
+          "@
+          gh issue create --title $title --label dependencies --body $body

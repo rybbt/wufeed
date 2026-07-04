@@ -1,0 +1,18 @@
+{
+  "github_username": "rybbt",
+  "repo_name": "wufeed",
+  "feed_base_url": "https://wufeed.rybbt.com",
+  "mscataloglts_version": "2.1.0.2",
+  "products": [
+    {
+      "id": "win11",
+      "name": "Windows 11",
+      "collector": "windows-catalog",
+      "architectures": [ "x64", "arm64" ],
+      "builds": [
+        { "name": "24H2", "build_number": "26100", "supported": true },
+        { "name": "25H2", "build_number": "26200", "supported": true }
+      ]
+    }
+  ]
+}

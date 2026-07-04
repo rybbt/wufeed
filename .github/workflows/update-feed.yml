@@ -1,0 +1,44 @@
+name: Update Feed
+
+on:
+  schedule:
+    - cron: '0 18 * * 3'    # Wednesday 18:00 UTC, ~2 days after Patch Tuesday
+  workflow_dispatch:         # manual trigger
+
+permissions:
+  contents: write            # commit the regenerated feed
+  issues: write              # raise an issue on failure
+
+jobs:
+  generate:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate feed
+        shell: pwsh
+        run: ./scripts/Update-Feed.ps1
+
+      - name: Commit and push
+        shell: pwsh
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "actions@github.com"
+          git add docs/
+          if (git status --porcelain docs/) {
+            git commit -m "Update feed $(Get-Date -Format 'yyyy-MM-dd')"
+            git push
+          } else {
+            Write-Host "No feed changes to commit."
+          }
+
+      - name: Raise issue on failure
+        if: failure()
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $title = "Update feed failed $(Get-Date -Format 'yyyy-MM-dd')"
+          $runUrl = "$env:GITHUB_SERVER_URL/$env:GITHUB_REPOSITORY/actions/runs/$env:GITHUB_RUN_ID"
+          gh issue create --title $title --label bug --body "The scheduled feed run failed. Logs: $runUrl"
