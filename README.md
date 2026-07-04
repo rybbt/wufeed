@@ -177,6 +177,22 @@ curl -s https://wufeed.rybbt.com/win11/24H2.json | jq -r '.updates.arm64.cu.down
   `check-module-version.yml` runs weekly and opens an issue when a newer version is on
   the PowerShell Gallery.
 
+## Attribution and disclaimer
+
+Update data (KB numbers, titles, sizes, hashes, release dates, and download URLs) is
+sourced from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/),
+and end-of-servicing dates from
+[Microsoft Learn](https://learn.microsoft.com/en-us/windows/release-health/). This
+project is not affiliated with, sponsored by, or endorsed by Microsoft. "Windows",
+"Windows 11", "Microsoft Defender", and ".NET" are trademarks of the Microsoft group of
+companies, used here nominatively only to identify the updates described.
+
+The feed is provided as-is, for informational and non-commercial use, with no warranty.
+The MIT licence below covers this repository's own code and configuration only — **not**
+the Microsoft-sourced data it aggregates, which remains subject to Microsoft's terms.
+wufeed links to Microsoft's official download URLs; it does not host or mirror update
+files. Verify any download against the published `sha1` before use.
+
 ## Licence
 
 [MIT](LICENSE).
