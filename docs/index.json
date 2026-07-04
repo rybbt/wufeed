@@ -1,0 +1,14 @@
+{
+  "generated": "2026-07-04",
+  "feeds": [
+    {
+      "id": "win11",
+      "name": "Windows 11",
+      "url": "https://wufeed.rybbt.com/win11/updates.json",
+      "architectures": [
+        "x64",
+        "arm64"
+      ]
+    }
+  ]
+}
