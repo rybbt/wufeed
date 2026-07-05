@@ -145,18 +145,37 @@ function Get-CatalogDownloadInfo {
         $s
     } | Select-Object -First 1
 
-    $sha1 = ''
-    $key = "$($chosen.Groups[1].Value)_$($chosen.Groups[2].Value)"
-    if ($digestMap.ContainsKey($key) -and $digestMap[$key]) {
-        try {
-            $bytes = [Convert]::FromBase64String($digestMap[$key])
-            $sha1 = ([BitConverter]::ToString($bytes) -replace '-', '').ToLower()
-        } catch {
-            Write-Warning "Could not decode SHA1 digest for $Guid."
+    function ConvertFrom-CatalogDigest {
+        param([System.Text.RegularExpressions.Match] $FileMatch)
+        $key = "$($FileMatch.Groups[1].Value)_$($FileMatch.Groups[2].Value)"
+        if ($digestMap.ContainsKey($key) -and $digestMap[$key]) {
+            try {
+                $bytes = [Convert]::FromBase64String($digestMap[$key])
+                return ([BitConverter]::ToString($bytes) -replace '-', '').ToLower()
+            } catch {
+                Write-Warning "Could not decode SHA1 digest for $Guid."
+            }
         }
+        return ''
     }
 
-    [pscustomobject]@{ Url = $chosen.Groups[3].Value; Sha1 = $sha1 }
+    # Full servicing chain for the requested arch (.msu/.cab), primary first.
+    # Checkpoint CUs need EVERY file present in one folder for offline (DISM)
+    # servicing of pre-checkpoint media - download_url alone is not enough
+    # there. The arch filter keeps multi-arch packages (Defender) to a single
+    # relevant file rather than leaking sibling architectures into the chain.
+    $chain = @($urlMatches | Where-Object {
+            $u = $_.Groups[3].Value
+            $u -match $archPattern -and $u -match '\.(msu|cab)(\?|$)'
+        })
+    if ($chain.Count -eq 0) { $chain = @($chosen) }
+    $chain = @($chosen) + @($chain | Where-Object { $_ -ne $chosen })
+
+    $files = @(foreach ($m in $chain) {
+            [ordered]@{ url = $m.Groups[3].Value; sha1 = ConvertFrom-CatalogDigest $m }
+        })
+
+    [pscustomobject]@{ Url = $chosen.Groups[3].Value; Sha1 = $files[0].sha1; Files = $files }
 }
 
 # --- Record shaping ---------------------------------------------------------------
@@ -184,6 +203,7 @@ function ConvertTo-UpdateRecord {
         catalog_url   = "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=$($Update.Guid)"
         download_url  = $dl.Url
         sha1          = $dl.Sha1
+        files         = $dl.Files
         size_mb       = $sizeMb
         release_date  = $Update.LastUpdated.ToString('yyyy-MM-dd')
     }

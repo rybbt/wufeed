@@ -65,6 +65,10 @@ page for `eol_date`.
         "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=...",
         "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/.../windows11.0-kb5094126-x64_....msu",
         "sha1": "1b7fae96...",
+        "files": [
+          { "url": ".../windows11.0-kb5094126-x64_....msu", "sha1": "1b7fae96..." },
+          { "url": ".../windows11.0-kb5043080-x64_....msu", "sha1": "95344967..." }
+        ],
         "size_mb": 5384,
         "release_date": "2026-06-09"
       },
@@ -89,8 +93,13 @@ Fields:
 - `title` — catalog title.
 - `release_notes` — `https://support.microsoft.com/help/<kb>`.
 - `catalog_url` — Microsoft Update Catalog detail page.
-- `download_url` — direct download link for the file.
-- `sha1` — hex SHA1 of the file; verify with `Get-FileHash -Algorithm SHA1`.
+- `download_url` — direct download link for the primary file.
+- `sha1` — hex SHA1 of the primary file; verify with `Get-FileHash -Algorithm SHA1`.
+- `files` — the full servicing chain (`{url, sha1}` each), primary first. For
+  checkpoint cumulative updates this includes the checkpoint baseline MSU(s):
+  **offline (DISM) servicing of pre-checkpoint media requires every file in
+  one folder** — `download_url` alone only suffices for online installs.
+  Single-file updates have a one-entry array.
 - `size_mb` — file size in MB.
 - `release_date` — catalog last-updated date (`yyyy-MM-dd`).
 - `eol_date` — end of servicing for Home/Pro editions; `null` if unavailable.
