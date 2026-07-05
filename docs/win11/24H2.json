@@ -4,7 +4,7 @@
   "build_number": "26100",
   "supported": true,
   "eol_date": "2026-10-13",
-  "generated": "2026-07-04",
+  "generated": "2026-07-05",
   "architectures": [
     "x64",
     "arm64"
@@ -18,6 +18,16 @@
         "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=8509b513-5741-482b-938e-d1fe2ffdd126",
         "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8ab7b9b4-fb40-4820-afb3-cbaf4cc0a701/public/windows11.0-kb5094126-x64_1b7fae967f9781d27e8ee3f848fba51b7cd62e88.msu",
         "sha1": "1b7fae967f9781d27e8ee3f848fba51b7cd62e88",
+        "files": [
+          {
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8ab7b9b4-fb40-4820-afb3-cbaf4cc0a701/public/windows11.0-kb5094126-x64_1b7fae967f9781d27e8ee3f848fba51b7cd62e88.msu",
+            "sha1": "1b7fae967f9781d27e8ee3f848fba51b7cd62e88"
+          },
+          {
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d8b7f92b-bd35-4b4c-96e5-46ce984b31e0/public/windows11.0-kb5043080-x64_953449672073f8fb99badb4cc6d5d7849b9c83e8.msu",
+            "sha1": "953449672073f8fb99badb4cc6d5d7849b9c83e8"
+          }
+        ],
         "size_mb": 5384.0,
         "release_date": "2026-06-09"
       },
@@ -28,6 +38,12 @@
         "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=dc18c4f9-272a-4db2-968b-d049019315f6",
         "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/cc8ce9c1-fa92-4562-92ca-1fab4911143a/public/windows11.0-kb5087054-x64-ndp481_9f992b2552fd55390be19470a8fcfa2047952a43.msu",
         "sha1": "9f992b2552fd55390be19470a8fcfa2047952a43",
+        "files": [
+          {
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/cc8ce9c1-fa92-4562-92ca-1fab4911143a/public/windows11.0-kb5087054-x64-ndp481_9f992b2552fd55390be19470a8fcfa2047952a43.msu",
+            "sha1": "9f992b2552fd55390be19470a8fcfa2047952a43"
+          }
+        ],
         "size_mb": 74.0,
         "release_date": "2026-05-12"
       },
@@ -39,6 +55,12 @@
           "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=40e9d3eb-d0f6-4169-bb9c-987600465ac0",
           "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/143f13b8-187b-41c4-a34c-7ba29ac60395/public/windows11.0-kb5095615-x64_fdda5e72b56faca5471af4862b679f686d1f7ce6.cab",
           "sha1": "fdda5e72b56faca5471af4862b679f686d1f7ce6",
+          "files": [
+            {
+              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/143f13b8-187b-41c4-a34c-7ba29ac60395/public/windows11.0-kb5095615-x64_fdda5e72b56faca5471af4862b679f686d1f7ce6.cab",
+              "sha1": "fdda5e72b56faca5471af4862b679f686d1f7ce6"
+            }
+          ],
           "size_mb": 145.0,
           "release_date": "2026-06-23"
         },
@@ -49,6 +71,12 @@
           "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=f18a38e8-610d-4693-a56c-1d6d1eac5d26",
           "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/80a05229-015b-45b4-a192-412f06470df3/public/windows11.0-kb5102558-x64_463ed70e217dae10128dbd0d1b18991b036cae10.cab",
           "sha1": "463ed70e217dae10128dbd0d1b18991b036cae10",
+          "files": [
+            {
+              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/80a05229-015b-45b4-a192-412f06470df3/public/windows11.0-kb5102558-x64_463ed70e217dae10128dbd0d1b18991b036cae10.cab",
+              "sha1": "463ed70e217dae10128dbd0d1b18991b036cae10"
+            }
+          ],
           "size_mb": 17.0,
           "release_date": "2026-06-23"
         }
@@ -60,6 +88,12 @@
         "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=9daab913-32db-48c0-ab63-9b8e40eea45a",
         "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/06/updateplatform.amd64fre_29a9f1f4221aea2b2ebbace7f23474713cd975f0.exe",
         "sha1": "29a9f1f4221aea2b2ebbace7f23474713cd975f0",
+        "files": [
+          {
+            "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/06/updateplatform.amd64fre_29a9f1f4221aea2b2ebbace7f23474713cd975f0.exe",
+            "sha1": "29a9f1f4221aea2b2ebbace7f23474713cd975f0"
+          }
+        ],
         "size_mb": 81.0,
         "release_date": "2026-06-08"
       }
@@ -72,6 +106,16 @@
         "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=e2e4e3d2-18a4-446f-87e0-f39111ee02bd",
         "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/87dfdd84-3869-4582-8473-0bf87ed68ff0/public/windows11.0-kb5094126-arm64_317d0de5bb00c99be5db2133b478a6c04f6c7797.msu",
         "sha1": "317d0de5bb00c99be5db2133b478a6c04f6c7797",
+        "files": [
+          {
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/87dfdd84-3869-4582-8473-0bf87ed68ff0/public/windows11.0-kb5094126-arm64_317d0de5bb00c99be5db2133b478a6c04f6c7797.msu",
+            "sha1": "317d0de5bb00c99be5db2133b478a6c04f6c7797"
+          },
+          {
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f263aa64-f367-42f0-9cad-328f342b93f7/public/windows11.0-kb5043080-arm64_df540a05f9b118e339c5520f4090bb5d450f090b.msu",
+            "sha1": "df540a05f9b118e339c5520f4090bb5d450f090b"
+          }
+        ],
         "size_mb": 4799.0,
         "release_date": "2026-06-09"
       },
@@ -82,6 +126,12 @@
         "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=7f791c50-3ed3-465e-a5b2-22b3de143184",
         "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d312a9a9-6e9a-4a3c-8a4d-f7576e8e2bb4/public/windows11.0-kb5087054-arm64-ndp481_27d42f0b84733417c3c38bd78b73da5c0f8cbcab.msu",
         "sha1": "27d42f0b84733417c3c38bd78b73da5c0f8cbcab",
+        "files": [
+          {
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d312a9a9-6e9a-4a3c-8a4d-f7576e8e2bb4/public/windows11.0-kb5087054-arm64-ndp481_27d42f0b84733417c3c38bd78b73da5c0f8cbcab.msu",
+            "sha1": "27d42f0b84733417c3c38bd78b73da5c0f8cbcab"
+          }
+        ],
         "size_mb": 90.0,
         "release_date": "2026-05-12"
       },
@@ -93,6 +143,12 @@
           "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=683d41e5-c59e-43f7-93bb-7e6497d81ddc",
           "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d0a43908-5b81-4113-b58e-c3e85b743a38/public/windows11.0-kb5095615-arm64_226c6648307eacceffc2485b6882b071d724b787.cab",
           "sha1": "226c6648307eacceffc2485b6882b071d724b787",
+          "files": [
+            {
+              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d0a43908-5b81-4113-b58e-c3e85b743a38/public/windows11.0-kb5095615-arm64_226c6648307eacceffc2485b6882b071d724b787.cab",
+              "sha1": "226c6648307eacceffc2485b6882b071d724b787"
+            }
+          ],
           "size_mb": 165.0,
           "release_date": "2026-06-23"
         },
@@ -103,6 +159,12 @@
           "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=e271f3fb-e277-48da-b62e-11fa521d64ff",
           "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/26e7190e-9c77-4dfb-b88a-5055e7db1d6e/public/windows11.0-kb5102558-arm64_e8966b5b8f6d10005bb426b2782082f4ca5ce6c0.cab",
           "sha1": "e8966b5b8f6d10005bb426b2782082f4ca5ce6c0",
+          "files": [
+            {
+              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/26e7190e-9c77-4dfb-b88a-5055e7db1d6e/public/windows11.0-kb5102558-arm64_e8966b5b8f6d10005bb426b2782082f4ca5ce6c0.cab",
+              "sha1": "e8966b5b8f6d10005bb426b2782082f4ca5ce6c0"
+            }
+          ],
           "size_mb": 17.0,
           "release_date": "2026-06-23"
         }
@@ -114,6 +176,12 @@
         "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=9daab913-32db-48c0-ab63-9b8e40eea45a",
         "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/06/updateplatform.arm64fre_c5bffa48c8cf93e8f79c9ab5bf74367b797cfb69.exe",
         "sha1": "c5bffa48c8cf93e8f79c9ab5bf74367b797cfb69",
+        "files": [
+          {
+            "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/06/updateplatform.arm64fre_c5bffa48c8cf93e8f79c9ab5bf74367b797cfb69.exe",
+            "sha1": "c5bffa48c8cf93e8f79c9ab5bf74367b797cfb69"
+          }
+        ],
         "size_mb": 81.0,
         "release_date": "2026-06-08"
       }
