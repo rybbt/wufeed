@@ -4,7 +4,7 @@
   "build_number": "26200",
   "supported": true,
   "eol_date": "2027-10-12",
-  "generated": "2026-07-22",
+  "generated": "2026-07-29",
   "architectures": [
     "x64",
     "arm64"
@@ -49,36 +49,36 @@
       },
       "dynamic": {
         "safeos": {
-          "kb": "KB5101719",
-          "title": "2026-07 Safe OS Dynamic Update for Windows 11, version 25H2 for x64-based Systems (KB5101719)",
-          "release_notes": "https://support.microsoft.com/help/5101719",
-          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=9aefe28c-7460-4f89-8060-64d15890f9e5",
-          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ad4e64c2-0468-4d0b-aa0d-879e834bcdae/public/windows11.0-kb5101719-x64_dc46866adf74a60b631b4a2f44a2a597335f7142.cab",
-          "sha1": "dc46866adf74a60b631b4a2f44a2a597335f7142",
+          "kb": "KB5102117",
+          "title": "2026-07 Safe OS Dynamic Update for Windows 11, version 25H2 for x64-based Systems (KB5102117)",
+          "release_notes": "https://support.microsoft.com/help/5102117",
+          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=0c18f6a1-49f4-4cf0-9f53-136cd6a5b041",
+          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/5b8ab3b5-bb5e-45db-9fae-f6a272fa8cd2/public/windows11.0-kb5102117-x64_85e1862e61a425db726ac83c470654626669aab0.cab",
+          "sha1": "85e1862e61a425db726ac83c470654626669aab0",
           "files": [
             {
-              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ad4e64c2-0468-4d0b-aa0d-879e834bcdae/public/windows11.0-kb5101719-x64_dc46866adf74a60b631b4a2f44a2a597335f7142.cab",
-              "sha1": "dc46866adf74a60b631b4a2f44a2a597335f7142"
+              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/5b8ab3b5-bb5e-45db-9fae-f6a272fa8cd2/public/windows11.0-kb5102117-x64_85e1862e61a425db726ac83c470654626669aab0.cab",
+              "sha1": "85e1862e61a425db726ac83c470654626669aab0"
             }
           ],
-          "size_mb": 160.0,
-          "release_date": "2026-07-14"
+          "size_mb": 163.0,
+          "release_date": "2026-07-28"
         },
         "setup": {
-          "kb": "KB5106056",
-          "title": "2026-07 Setup Dynamic Update for Windows 11, version 25H2 for x64-based Systems (KB5106056)",
-          "release_notes": "https://support.microsoft.com/help/5106056",
-          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=dfcd148d-dc01-4077-a371-c08a655751c7",
-          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8dff9b1c-af77-47a9-bed7-66e57dc05e45/public/windows11.0-kb5106056-x64_bc6ea2307252c26f5c34bc9c96e2862e32883e36.cab",
-          "sha1": "bc6ea2307252c26f5c34bc9c96e2862e32883e36",
+          "kb": "KB5106084",
+          "title": "2026-07 Setup Dynamic Update for Windows 11, version 25H2 for x64-based Systems (KB5106084)",
+          "release_notes": "https://support.microsoft.com/help/5106084",
+          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=4340ad6b-0cea-423e-b7fc-d70d01fcd90d",
+          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/da0ed5a7-2319-42e5-bae9-44c2498525e5/public/windows11.0-kb5106084-x64_ad6d6fd66268f6d99cb87cbf1865eeed51846a75.cab",
+          "sha1": "ad6d6fd66268f6d99cb87cbf1865eeed51846a75",
           "files": [
             {
-              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8dff9b1c-af77-47a9-bed7-66e57dc05e45/public/windows11.0-kb5106056-x64_bc6ea2307252c26f5c34bc9c96e2862e32883e36.cab",
-              "sha1": "bc6ea2307252c26f5c34bc9c96e2862e32883e36"
+              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/da0ed5a7-2319-42e5-bae9-44c2498525e5/public/windows11.0-kb5106084-x64_ad6d6fd66268f6d99cb87cbf1865eeed51846a75.cab",
+              "sha1": "ad6d6fd66268f6d99cb87cbf1865eeed51846a75"
             }
           ],
           "size_mb": 17.0,
-          "release_date": "2026-07-14"
+          "release_date": "2026-07-28"
         }
       },
       "defender": {
@@ -137,36 +137,36 @@
       },
       "dynamic": {
         "safeos": {
-          "kb": "KB5101719",
-          "title": "2026-07 Safe OS Dynamic Update for Windows 11, version 25H2 for arm64-based Systems (KB5101719)",
-          "release_notes": "https://support.microsoft.com/help/5101719",
-          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=de49d4c6-26ae-4919-8347-8d55563be6d2",
-          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/1ffea990-8108-4ed7-b28a-101555732e6b/public/windows11.0-kb5101719-arm64_e7c071444b137b29e15c9aef407012db4d368baa.cab",
-          "sha1": "e7c071444b137b29e15c9aef407012db4d368baa",
+          "kb": "KB5102117",
+          "title": "2026-07 Safe OS Dynamic Update for Windows 11, version 25H2 for arm64-based Systems (KB5102117)",
+          "release_notes": "https://support.microsoft.com/help/5102117",
+          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=4b27b387-42b0-4893-909c-bd9d70b169b0",
+          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/3a4ec0a8-5cfd-4c89-8fd7-dbca92dbfdaa/public/windows11.0-kb5102117-arm64_80a34d9786df049d6628f981a6e29f5728e624a2.cab",
+          "sha1": "80a34d9786df049d6628f981a6e29f5728e624a2",
           "files": [
             {
-              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/1ffea990-8108-4ed7-b28a-101555732e6b/public/windows11.0-kb5101719-arm64_e7c071444b137b29e15c9aef407012db4d368baa.cab",
-              "sha1": "e7c071444b137b29e15c9aef407012db4d368baa"
+              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/3a4ec0a8-5cfd-4c89-8fd7-dbca92dbfdaa/public/windows11.0-kb5102117-arm64_80a34d9786df049d6628f981a6e29f5728e624a2.cab",
+              "sha1": "80a34d9786df049d6628f981a6e29f5728e624a2"
             }
           ],
-          "size_mb": 183.0,
-          "release_date": "2026-07-14"
+          "size_mb": 186.0,
+          "release_date": "2026-07-28"
         },
         "setup": {
-          "kb": "KB5106056",
-          "title": "2026-07 Setup Dynamic Update for Windows 11, version 25H2 for arm64-based Systems (KB5106056)",
-          "release_notes": "https://support.microsoft.com/help/5106056",
-          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=b632c8da-5abb-48f1-99ba-25ee324d2280",
-          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f2d5681d-49f3-45ea-a250-5b2e07a22cf4/public/windows11.0-kb5106056-arm64_5efe4d5e657d2518ce3e8e84a6a1237d13d733c1.cab",
-          "sha1": "5efe4d5e657d2518ce3e8e84a6a1237d13d733c1",
+          "kb": "KB5106084",
+          "title": "2026-07 Setup Dynamic Update for Windows 11, version 25H2 for arm64-based Systems (KB5106084)",
+          "release_notes": "https://support.microsoft.com/help/5106084",
+          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=14b9e557-c63b-454d-babf-a57dd4c04068",
+          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e65b0fed-df62-4911-8cb2-b4e7e3a328a7/public/windows11.0-kb5106084-arm64_cd0aad8b0678ec3f4cf95a20527c896bdd377673.cab",
+          "sha1": "cd0aad8b0678ec3f4cf95a20527c896bdd377673",
           "files": [
             {
-              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f2d5681d-49f3-45ea-a250-5b2e07a22cf4/public/windows11.0-kb5106056-arm64_5efe4d5e657d2518ce3e8e84a6a1237d13d733c1.cab",
-              "sha1": "5efe4d5e657d2518ce3e8e84a6a1237d13d733c1"
+              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e65b0fed-df62-4911-8cb2-b4e7e3a328a7/public/windows11.0-kb5106084-arm64_cd0aad8b0678ec3f4cf95a20527c896bdd377673.cab",
+              "sha1": "cd0aad8b0678ec3f4cf95a20527c896bdd377673"
             }
           ],
           "size_mb": 17.0,
-          "release_date": "2026-07-14"
+          "release_date": "2026-07-28"
         }
       },
       "defender": {
