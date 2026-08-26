@@ -1,7 +1,7 @@
 {
   "product": "win11",
   "os": "Windows 11",
-  "generated": "2026-08-19",
+  "generated": "2026-08-26",
   "feed_url": "https://wufeed.rybbt.com/win11/updates.json",
   "architectures": [
     "x64",
@@ -14,7 +14,7 @@
       "build_number": "26100",
       "supported": true,
       "eol_date": "2026-10-13",
-      "generated": "2026-08-19",
+      "generated": "2026-08-26",
       "architectures": [
         "x64",
         "arm64"
@@ -204,7 +204,7 @@
       "build_number": "26200",
       "supported": true,
       "eol_date": "2027-10-12",
-      "generated": "2026-08-19",
+      "generated": "2026-08-26",
       "architectures": [
         "x64",
         "arm64"
