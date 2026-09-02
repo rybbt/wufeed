@@ -4,7 +4,7 @@
   "build_number": "26100",
   "supported": true,
   "eol_date": "2026-10-13",
-  "generated": "2026-08-26",
+  "generated": "2026-09-02",
   "architectures": [
     "x64",
     "arm64"
@@ -83,19 +83,19 @@
       },
       "defender": {
         "kb": "KB4052623",
-        "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26070.9) - Current Channel (Broad)",
+        "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26080.3) - Current Channel (Broad)",
         "release_notes": "https://support.microsoft.com/help/4052623",
-        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=9477e609-e026-4836-ae84-2b51eb954ddc",
-        "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/07/updateplatform.amd64fre_871e066ed1973f112e534034e345cf05d8f7e431.exe",
-        "sha1": "871e066ed1973f112e534034e345cf05d8f7e431",
+        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=b089b307-66de-4943-9ac5-99a8e4fa49e6",
+        "download_url": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/defu/2026/08/updateplatform.amd64fre_99b71e4d3a498fec8b527f4dc0cf4a74169de128.exe",
+        "sha1": "99b71e4d3a498fec8b527f4dc0cf4a74169de128",
         "files": [
           {
-            "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/07/updateplatform.amd64fre_871e066ed1973f112e534034e345cf05d8f7e431.exe",
-            "sha1": "871e066ed1973f112e534034e345cf05d8f7e431"
+            "url": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/defu/2026/08/updateplatform.amd64fre_99b71e4d3a498fec8b527f4dc0cf4a74169de128.exe",
+            "sha1": "99b71e4d3a498fec8b527f4dc0cf4a74169de128"
           }
         ],
-        "size_mb": 88.0,
-        "release_date": "2026-08-04"
+        "size_mb": 89.0,
+        "release_date": "2026-09-01"
       }
     },
     "arm64": {
@@ -171,19 +171,19 @@
       },
       "defender": {
         "kb": "KB4052623",
-        "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26070.9) - Current Channel (Broad)",
+        "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26080.3) - Current Channel (Broad)",
         "release_notes": "https://support.microsoft.com/help/4052623",
-        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=9477e609-e026-4836-ae84-2b51eb954ddc",
-        "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/07/updateplatform.arm64fre_adf2d9855170f8435acee0e88e2f9339d681159b.exe",
-        "sha1": "adf2d9855170f8435acee0e88e2f9339d681159b",
+        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=b089b307-66de-4943-9ac5-99a8e4fa49e6",
+        "download_url": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/defu/2026/08/updateplatform.arm64fre_cb7c75dca219fb809bec7f0f978dc2b604471701.exe",
+        "sha1": "cb7c75dca219fb809bec7f0f978dc2b604471701",
         "files": [
           {
-            "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/07/updateplatform.arm64fre_adf2d9855170f8435acee0e88e2f9339d681159b.exe",
-            "sha1": "adf2d9855170f8435acee0e88e2f9339d681159b"
+            "url": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/defu/2026/08/updateplatform.arm64fre_cb7c75dca219fb809bec7f0f978dc2b604471701.exe",
+            "sha1": "cb7c75dca219fb809bec7f0f978dc2b604471701"
           }
         ],
-        "size_mb": 88.0,
-        "release_date": "2026-08-04"
+        "size_mb": 89.0,
+        "release_date": "2026-09-01"
       }
     }
   }
