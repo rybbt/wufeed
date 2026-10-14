@@ -1,7 +1,7 @@
 {
   "product": "win11",
   "os": "Windows 11",
-  "generated": "2026-10-07",
+  "generated": "2026-10-14",
   "feed_url": "https://wufeed.rybbt.com/win11/updates.json",
   "architectures": [
     "x64",
@@ -13,8 +13,8 @@
       "build": "24H2",
       "build_number": "26100",
       "supported": true,
-      "eol_date": "2026-10-13",
-      "generated": "2026-10-07",
+      "eol_date": null,
+      "generated": "2026-10-14",
       "architectures": [
         "x64",
         "arm64"
@@ -22,178 +22,178 @@
       "updates": {
         "x64": {
           "cu": {
-            "kb": "KB5129195",
-            "title": "2026-09 Cumulative Update for Windows 11, version 24H2 for x64-based Systems (KB5129195) (26100.9457)",
-            "release_notes": "https://support.microsoft.com/help/5129195",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=6523f702-594e-4013-bc9b-0764bddd9dd1",
-            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/471c8f54-b9fc-491d-9944-234d5db009f0/public/windows11.0-kb5129195-x64_ed361878ec2b56a7dfdb8f256565263a7fdc8eaa.msu",
-            "sha1": "ed361878ec2b56a7dfdb8f256565263a7fdc8eaa",
+            "kb": "KB5127648",
+            "title": "2026-10 Cumulative Update for Windows 11, version 24H2 for x64-based Systems (KB5127648) (26100.9711)",
+            "release_notes": "https://support.microsoft.com/help/5127648",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=8d5353b2-7db6-451a-a42c-2dc9c486372d",
+            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4225b261-8248-43e5-a808-34f3faafe3f6/public/windows11.0-kb5127648-x64_2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09.msu",
+            "sha1": "2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09",
             "files": [
               {
-                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/471c8f54-b9fc-491d-9944-234d5db009f0/public/windows11.0-kb5129195-x64_ed361878ec2b56a7dfdb8f256565263a7fdc8eaa.msu",
-                "sha1": "ed361878ec2b56a7dfdb8f256565263a7fdc8eaa"
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4225b261-8248-43e5-a808-34f3faafe3f6/public/windows11.0-kb5127648-x64_2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09.msu",
+                "sha1": "2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09"
               },
               {
                 "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d8b7f92b-bd35-4b4c-96e5-46ce984b31e0/public/windows11.0-kb5043080-x64_953449672073f8fb99badb4cc6d5d7849b9c83e8.msu",
                 "sha1": "953449672073f8fb99badb4cc6d5d7849b9c83e8"
               }
             ],
-            "size_mb": 4934.0,
-            "release_date": "2026-09-14"
+            "size_mb": 5063.0,
+            "release_date": "2026-10-13"
           },
           "net": {
-            "kb": "KB5126052",
-            "title": "2026-09 Cumulative Update for .NET Framework 3.5 and 4.8.1 for Windows 11, version 24H2 for x64 (KB5126052)",
-            "release_notes": "https://support.microsoft.com/help/5126052",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=35ad7ed1-5e7a-4c6f-9985-3d6855e1d0cf",
-            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/aa6d5327-d621-4af8-8340-5a291e597f6b/public/windows11.0-kb5126052-x64-ndp481_082cfd5816914c794b261ea68bf6c91419fc32a8.msu",
-            "sha1": "082cfd5816914c794b261ea68bf6c91419fc32a8",
+            "kb": "KB5127690",
+            "title": "2026-10 Cumulative Update for .NET Framework 3.5 and 4.8.1 for Windows 11, version 24H2 for x64 (KB5127690)",
+            "release_notes": "https://support.microsoft.com/help/5127690",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=707f912f-491a-4cd1-b270-b258349377c0",
+            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/160d2d32-f1f8-42d8-8c04-db9b7c3cdb71/public/windows11.0-kb5127690-x64-ndp481_2799c97224d973d4b106f7b02cf27a493c38ed95.msu",
+            "sha1": "2799c97224d973d4b106f7b02cf27a493c38ed95",
             "files": [
               {
-                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/aa6d5327-d621-4af8-8340-5a291e597f6b/public/windows11.0-kb5126052-x64-ndp481_082cfd5816914c794b261ea68bf6c91419fc32a8.msu",
-                "sha1": "082cfd5816914c794b261ea68bf6c91419fc32a8"
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/160d2d32-f1f8-42d8-8c04-db9b7c3cdb71/public/windows11.0-kb5127690-x64-ndp481_2799c97224d973d4b106f7b02cf27a493c38ed95.msu",
+                "sha1": "2799c97224d973d4b106f7b02cf27a493c38ed95"
               }
             ],
             "size_mb": 92.0,
-            "release_date": "2026-09-08"
+            "release_date": "2026-10-13"
           },
           "dynamic": {
             "safeos": {
-              "kb": "KB5125758",
-              "title": "2026-09 Safe OS Dynamic Update for Windows 11, version 24H2 for x64-based Systems (KB5125758)",
-              "release_notes": "https://support.microsoft.com/help/5125758",
-              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=c60e4214-5f1a-447a-8295-0a05222adc81",
-              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/1762f87c-613d-4668-bfb0-45747c4d8609/public/windows11.0-kb5125758-x64_8dd60b2db4ab21f796b5f8d510067edce6827104.cab",
-              "sha1": "8dd60b2db4ab21f796b5f8d510067edce6827104",
+              "kb": "KB5126660",
+              "title": "2026-10 Safe OS Dynamic Update for Microsoft server operating system version 24H2 for x64-based Systems (KB5126660)",
+              "release_notes": "https://support.microsoft.com/help/5126660",
+              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=23852af5-daee-4e1b-9098-5f08d9d48822",
+              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/90c8ab9b-d635-4f9d-acc3-34c28cf58205/public/windows11.0-kb5126660-x64_a9a10df97394035d5b319a76fc623747a0d0bf3e.cab",
+              "sha1": "a9a10df97394035d5b319a76fc623747a0d0bf3e",
               "files": [
                 {
-                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/1762f87c-613d-4668-bfb0-45747c4d8609/public/windows11.0-kb5125758-x64_8dd60b2db4ab21f796b5f8d510067edce6827104.cab",
-                  "sha1": "8dd60b2db4ab21f796b5f8d510067edce6827104"
+                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/90c8ab9b-d635-4f9d-acc3-34c28cf58205/public/windows11.0-kb5126660-x64_a9a10df97394035d5b319a76fc623747a0d0bf3e.cab",
+                  "sha1": "a9a10df97394035d5b319a76fc623747a0d0bf3e"
                 }
               ],
-              "size_mb": 174.0,
-              "release_date": "2026-09-22"
+              "size_mb": 165.0,
+              "release_date": "2026-10-13"
             },
             "setup": {
-              "kb": "KB5127216",
-              "title": "2026-09 Setup Dynamic Update for Windows 11, version 24H2 for x64-based Systems (KB5127216)",
-              "release_notes": "https://support.microsoft.com/help/5127216",
-              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=cb808869-626e-4480-974d-feb17e9257be",
-              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/64188a68-3472-46aa-becb-9ff4d1cfa5be/public/windows11.0-kb5127216-x64_902338a716924a73f0d119a22fb104d7abceb161.cab",
-              "sha1": "902338a716924a73f0d119a22fb104d7abceb161",
+              "kb": "KB5127359",
+              "title": "2026-10 Setup Dynamic Update for Microsoft server operating system version 24H2 for x64-based Systems (KB5127359)",
+              "release_notes": "https://support.microsoft.com/help/5127359",
+              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=11fd5fd7-2d72-4eb8-b669-71e52ebffc91",
+              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/80770849-cfb0-49d6-b64d-82df54b65663/public/windows11.0-kb5127359-x64_5083811829660154413d2f031f6c7f813924b9d0.cab",
+              "sha1": "5083811829660154413d2f031f6c7f813924b9d0",
               "files": [
                 {
-                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/64188a68-3472-46aa-becb-9ff4d1cfa5be/public/windows11.0-kb5127216-x64_902338a716924a73f0d119a22fb104d7abceb161.cab",
-                  "sha1": "902338a716924a73f0d119a22fb104d7abceb161"
+                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/80770849-cfb0-49d6-b64d-82df54b65663/public/windows11.0-kb5127359-x64_5083811829660154413d2f031f6c7f813924b9d0.cab",
+                  "sha1": "5083811829660154413d2f031f6c7f813924b9d0"
                 }
               ],
-              "size_mb": 17.0,
-              "release_date": "2026-09-22"
+              "size_mb": 16.0,
+              "release_date": "2026-10-13"
             }
           },
           "defender": {
             "kb": "KB4052623",
-            "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26080.4) - Current Channel (Broad)",
+            "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26090.9) - Current Channel (Broad)",
             "release_notes": "https://support.microsoft.com/help/4052623",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=dc8cd110-fb75-45bb-8379-859df2409586",
-            "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.amd64fre_314c7bfdd3e57abdf156b40c4f97af62530f63a1.exe",
-            "sha1": "314c7bfdd3e57abdf156b40c4f97af62530f63a1",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=a79946d7-a153-49fb-b37c-ca0c60222db6",
+            "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.amd64fre_83de113d5585b3468d68cc4b94c2a5de51d80d1b.exe",
+            "sha1": "83de113d5585b3468d68cc4b94c2a5de51d80d1b",
             "files": [
               {
-                "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.amd64fre_314c7bfdd3e57abdf156b40c4f97af62530f63a1.exe",
-                "sha1": "314c7bfdd3e57abdf156b40c4f97af62530f63a1"
+                "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.amd64fre_83de113d5585b3468d68cc4b94c2a5de51d80d1b.exe",
+                "sha1": "83de113d5585b3468d68cc4b94c2a5de51d80d1b"
               }
             ],
-            "size_mb": 89.0,
-            "release_date": "2026-09-17"
+            "size_mb": 91.0,
+            "release_date": "2026-10-12"
           }
         },
         "arm64": {
           "cu": {
-            "kb": "KB5129195",
-            "title": "2026-09 Cumulative Update for Windows 11, version 24H2 for arm64-based Systems (KB5129195) (26100.9457)",
-            "release_notes": "https://support.microsoft.com/help/5129195",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=fc35b25f-82f4-455a-9361-fbca555dd261",
-            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/3750a920-b998-4242-8fed-32423df59284/public/windows11.0-kb5129195-arm64_e6b0a7f8c8cacdf87e8da1a01fe073934a0002b4.msu",
-            "sha1": "e6b0a7f8c8cacdf87e8da1a01fe073934a0002b4",
+            "kb": "KB5127648",
+            "title": "2026-10 Cumulative Update for Windows 11, version 24H2 for arm64-based Systems (KB5127648) (26100.9711)",
+            "release_notes": "https://support.microsoft.com/help/5127648",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=c5d48552-b81f-4fe0-a2dc-483dd78aeaf6",
+            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/037a7452-6152-4e16-a6bc-e495dbb16e50/public/windows11.0-kb5127648-arm64_630ff4173d7728e4123461cba51b63a6ec53df40.msu",
+            "sha1": "630ff4173d7728e4123461cba51b63a6ec53df40",
             "files": [
               {
-                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/3750a920-b998-4242-8fed-32423df59284/public/windows11.0-kb5129195-arm64_e6b0a7f8c8cacdf87e8da1a01fe073934a0002b4.msu",
-                "sha1": "e6b0a7f8c8cacdf87e8da1a01fe073934a0002b4"
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/037a7452-6152-4e16-a6bc-e495dbb16e50/public/windows11.0-kb5127648-arm64_630ff4173d7728e4123461cba51b63a6ec53df40.msu",
+                "sha1": "630ff4173d7728e4123461cba51b63a6ec53df40"
               },
               {
                 "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f263aa64-f367-42f0-9cad-328f342b93f7/public/windows11.0-kb5043080-arm64_df540a05f9b118e339c5520f4090bb5d450f090b.msu",
                 "sha1": "df540a05f9b118e339c5520f4090bb5d450f090b"
               }
             ],
-            "size_mb": 4770.0,
-            "release_date": "2026-09-14"
+            "size_mb": 4906.0,
+            "release_date": "2026-10-13"
           },
           "net": {
-            "kb": "KB5126052",
-            "title": "2026-09 Cumulative Update for .NET Framework 3.5 and 4.8.1 for Windows 11, version 24H2 for arm64 (KB5126052)",
-            "release_notes": "https://support.microsoft.com/help/5126052",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=d1431088-e9e7-45c7-8b67-f0bfd0b2f527",
-            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/636c6186-6e83-481d-93a4-5131c454063f/public/windows11.0-kb5126052-arm64-ndp481_5678046ea7559df51f73ef43a2965b34717839f7.msu",
-            "sha1": "5678046ea7559df51f73ef43a2965b34717839f7",
+            "kb": "KB5127690",
+            "title": "2026-10 Cumulative Update for .NET Framework 3.5 and 4.8.1 for Windows 11, version 24H2 for arm64 (KB5127690)",
+            "release_notes": "https://support.microsoft.com/help/5127690",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=7871f446-4332-4552-b298-f1f3bb083008",
+            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/bb8658ec-7bb2-449a-8bdd-a32736244416/public/windows11.0-kb5127690-arm64-ndp481_dc35585de600aee917ac0b63ebe645b214cc45b7.msu",
+            "sha1": "dc35585de600aee917ac0b63ebe645b214cc45b7",
             "files": [
               {
-                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/636c6186-6e83-481d-93a4-5131c454063f/public/windows11.0-kb5126052-arm64-ndp481_5678046ea7559df51f73ef43a2965b34717839f7.msu",
-                "sha1": "5678046ea7559df51f73ef43a2965b34717839f7"
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/bb8658ec-7bb2-449a-8bdd-a32736244416/public/windows11.0-kb5127690-arm64-ndp481_dc35585de600aee917ac0b63ebe645b214cc45b7.msu",
+                "sha1": "dc35585de600aee917ac0b63ebe645b214cc45b7"
               }
             ],
             "size_mb": 111.0,
-            "release_date": "2026-09-08"
+            "release_date": "2026-10-13"
           },
           "dynamic": {
             "safeos": {
-              "kb": "KB5125758",
-              "title": "2026-09 Safe OS Dynamic Update for Windows 11, version 24H2 for arm64-based Systems (KB5125758)",
-              "release_notes": "https://support.microsoft.com/help/5125758",
-              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=9e7f3de0-9936-4737-86fc-ba69b1310b8a",
-              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a4125eb1-23f3-4d07-a19a-f7b2e9a19cf2/public/windows11.0-kb5125758-arm64_0a191dcfd1de35de1917d6927f923cd4ed933a53.cab",
-              "sha1": "0a191dcfd1de35de1917d6927f923cd4ed933a53",
+              "kb": "KB5127654",
+              "title": "2026-10 Safe OS Dynamic Update for Windows 11, version 24H2 for arm64-based Systems (KB5127654)",
+              "release_notes": "https://support.microsoft.com/help/5127654",
+              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=1ee51e2a-6c65-4b9e-ab2f-5e601500bcc7",
+              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/29d49811-89d0-4766-a039-6a46784efbac/public/windows11.0-kb5127654-arm64_887d395de4d75fb20fb9c7855e71f16d6b655605.cab",
+              "sha1": "887d395de4d75fb20fb9c7855e71f16d6b655605",
               "files": [
                 {
-                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a4125eb1-23f3-4d07-a19a-f7b2e9a19cf2/public/windows11.0-kb5125758-arm64_0a191dcfd1de35de1917d6927f923cd4ed933a53.cab",
-                  "sha1": "0a191dcfd1de35de1917d6927f923cd4ed933a53"
+                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/29d49811-89d0-4766-a039-6a46784efbac/public/windows11.0-kb5127654-arm64_887d395de4d75fb20fb9c7855e71f16d6b655605.cab",
+                  "sha1": "887d395de4d75fb20fb9c7855e71f16d6b655605"
                 }
               ],
-              "size_mb": 205.0,
-              "release_date": "2026-09-22"
+              "size_mb": 222.0,
+              "release_date": "2026-10-13"
             },
             "setup": {
-              "kb": "KB5127216",
-              "title": "2026-09 Setup Dynamic Update for Windows 11, version 24H2 for arm64-based Systems (KB5127216)",
-              "release_notes": "https://support.microsoft.com/help/5127216",
-              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=e6b74e50-3aa3-4eca-a522-cb07dc449b42",
-              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/9fd06c32-30ce-4bf8-bdce-02db9a272a81/public/windows11.0-kb5127216-arm64_0ea2c888e7926305c947f29277a28e0074258e6e.cab",
-              "sha1": "0ea2c888e7926305c947f29277a28e0074258e6e",
+              "kb": "KB5127650",
+              "title": "2026-10 Setup Dynamic Update for Windows 11, version 24H2 for arm64-based Systems (KB5127650)",
+              "release_notes": "https://support.microsoft.com/help/5127650",
+              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=122160d9-0069-4608-bde9-b439c0d2d270",
+              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a4091701-b219-4337-a718-cfd817a0a8a8/public/windows11.0-kb5127650-arm64_62a6522cb9f571370cf29ade6758ce1e684fc5a8.cab",
+              "sha1": "62a6522cb9f571370cf29ade6758ce1e684fc5a8",
               "files": [
                 {
-                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/9fd06c32-30ce-4bf8-bdce-02db9a272a81/public/windows11.0-kb5127216-arm64_0ea2c888e7926305c947f29277a28e0074258e6e.cab",
-                  "sha1": "0ea2c888e7926305c947f29277a28e0074258e6e"
+                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a4091701-b219-4337-a718-cfd817a0a8a8/public/windows11.0-kb5127650-arm64_62a6522cb9f571370cf29ade6758ce1e684fc5a8.cab",
+                  "sha1": "62a6522cb9f571370cf29ade6758ce1e684fc5a8"
                 }
               ],
               "size_mb": 17.0,
-              "release_date": "2026-09-22"
+              "release_date": "2026-10-13"
             }
           },
           "defender": {
             "kb": "KB4052623",
-            "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26080.4) - Current Channel (Broad)",
+            "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26090.9) - Current Channel (Broad)",
             "release_notes": "https://support.microsoft.com/help/4052623",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=dc8cd110-fb75-45bb-8379-859df2409586",
-            "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.arm64fre_bd2a030040b4c71f8265ed53bfe2a639e071b96d.exe",
-            "sha1": "bd2a030040b4c71f8265ed53bfe2a639e071b96d",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=a79946d7-a153-49fb-b37c-ca0c60222db6",
+            "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.arm64fre_352ac666bfc9c583872f1659f574e5ed3eabd233.exe",
+            "sha1": "352ac666bfc9c583872f1659f574e5ed3eabd233",
             "files": [
               {
-                "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.arm64fre_bd2a030040b4c71f8265ed53bfe2a639e071b96d.exe",
-                "sha1": "bd2a030040b4c71f8265ed53bfe2a639e071b96d"
+                "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.arm64fre_352ac666bfc9c583872f1659f574e5ed3eabd233.exe",
+                "sha1": "352ac666bfc9c583872f1659f574e5ed3eabd233"
               }
             ],
-            "size_mb": 89.0,
-            "release_date": "2026-09-17"
+            "size_mb": 91.0,
+            "release_date": "2026-10-12"
           }
         }
       }
@@ -204,7 +204,7 @@
       "build_number": "26200",
       "supported": true,
       "eol_date": "2027-10-12",
-      "generated": "2026-10-07",
+      "generated": "2026-10-14",
       "architectures": [
         "x64",
         "arm64"
@@ -212,178 +212,178 @@
       "updates": {
         "x64": {
           "cu": {
-            "kb": "KB5129195",
-            "title": "2026-09 Cumulative Update for Windows 11, version 25H2 for x64-based Systems (KB5129195) (26200.9457)",
-            "release_notes": "https://support.microsoft.com/help/5129195",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=5cc91450-4f0f-40a8-a67a-63dc58d9dac9",
-            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/471c8f54-b9fc-491d-9944-234d5db009f0/public/windows11.0-kb5129195-x64_ed361878ec2b56a7dfdb8f256565263a7fdc8eaa.msu",
-            "sha1": "ed361878ec2b56a7dfdb8f256565263a7fdc8eaa",
+            "kb": "KB5127648",
+            "title": "2026-10 Cumulative Update for Windows 11, version 25H2 for x64-based Systems (KB5127648) (26200.9711)",
+            "release_notes": "https://support.microsoft.com/help/5127648",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=b9a50e37-4f50-4f50-bc24-9e7b1e1d4b70",
+            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4225b261-8248-43e5-a808-34f3faafe3f6/public/windows11.0-kb5127648-x64_2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09.msu",
+            "sha1": "2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09",
             "files": [
               {
-                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/471c8f54-b9fc-491d-9944-234d5db009f0/public/windows11.0-kb5129195-x64_ed361878ec2b56a7dfdb8f256565263a7fdc8eaa.msu",
-                "sha1": "ed361878ec2b56a7dfdb8f256565263a7fdc8eaa"
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4225b261-8248-43e5-a808-34f3faafe3f6/public/windows11.0-kb5127648-x64_2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09.msu",
+                "sha1": "2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09"
               },
               {
                 "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d8b7f92b-bd35-4b4c-96e5-46ce984b31e0/public/windows11.0-kb5043080-x64_953449672073f8fb99badb4cc6d5d7849b9c83e8.msu",
                 "sha1": "953449672073f8fb99badb4cc6d5d7849b9c83e8"
               }
             ],
-            "size_mb": 4934.0,
-            "release_date": "2026-09-14"
+            "size_mb": 5063.0,
+            "release_date": "2026-10-13"
           },
           "net": {
-            "kb": "KB5126052",
-            "title": "2026-09 Cumulative Update for .NET Framework 3.5 and 4.8.1 for Windows 11, version 25H2 for x64 (KB5126052)",
-            "release_notes": "https://support.microsoft.com/help/5126052",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=f3bfe0d5-fae9-4257-89b5-0062ddceac06",
-            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/aa6d5327-d621-4af8-8340-5a291e597f6b/public/windows11.0-kb5126052-x64-ndp481_082cfd5816914c794b261ea68bf6c91419fc32a8.msu",
-            "sha1": "082cfd5816914c794b261ea68bf6c91419fc32a8",
+            "kb": "KB5127690",
+            "title": "2026-10 Cumulative Update for .NET Framework 3.5 and 4.8.1 for Windows 11, version 25H2 for x64 (KB5127690)",
+            "release_notes": "https://support.microsoft.com/help/5127690",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=98c8f52b-7e9d-4fae-a8f8-7ad617da56e6",
+            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/160d2d32-f1f8-42d8-8c04-db9b7c3cdb71/public/windows11.0-kb5127690-x64-ndp481_2799c97224d973d4b106f7b02cf27a493c38ed95.msu",
+            "sha1": "2799c97224d973d4b106f7b02cf27a493c38ed95",
             "files": [
               {
-                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/aa6d5327-d621-4af8-8340-5a291e597f6b/public/windows11.0-kb5126052-x64-ndp481_082cfd5816914c794b261ea68bf6c91419fc32a8.msu",
-                "sha1": "082cfd5816914c794b261ea68bf6c91419fc32a8"
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/160d2d32-f1f8-42d8-8c04-db9b7c3cdb71/public/windows11.0-kb5127690-x64-ndp481_2799c97224d973d4b106f7b02cf27a493c38ed95.msu",
+                "sha1": "2799c97224d973d4b106f7b02cf27a493c38ed95"
               }
             ],
             "size_mb": 92.0,
-            "release_date": "2026-09-08"
+            "release_date": "2026-10-13"
           },
           "dynamic": {
             "safeos": {
-              "kb": "KB5125758",
-              "title": "2026-09 Safe OS Dynamic Update for Windows 11, version 25H2 for x64-based Systems (KB5125758)",
-              "release_notes": "https://support.microsoft.com/help/5125758",
-              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=218fe31f-bbae-4684-a594-2575b3a03ef1",
-              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/1762f87c-613d-4668-bfb0-45747c4d8609/public/windows11.0-kb5125758-x64_8dd60b2db4ab21f796b5f8d510067edce6827104.cab",
-              "sha1": "8dd60b2db4ab21f796b5f8d510067edce6827104",
+              "kb": "KB5127654",
+              "title": "2026-10 Safe OS Dynamic Update for Windows 11, version 25H2 for x64-based Systems (KB5127654)",
+              "release_notes": "https://support.microsoft.com/help/5127654",
+              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=badf2b59-071c-43f8-9be6-61df51759b9d",
+              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f8397943-4d37-43cb-a167-74b567556f37/public/windows11.0-kb5127654-x64_87d6bc65b7b39cdd33e9570c7aff97e28ba31c2b.cab",
+              "sha1": "87d6bc65b7b39cdd33e9570c7aff97e28ba31c2b",
               "files": [
                 {
-                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/1762f87c-613d-4668-bfb0-45747c4d8609/public/windows11.0-kb5125758-x64_8dd60b2db4ab21f796b5f8d510067edce6827104.cab",
-                  "sha1": "8dd60b2db4ab21f796b5f8d510067edce6827104"
+                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f8397943-4d37-43cb-a167-74b567556f37/public/windows11.0-kb5127654-x64_87d6bc65b7b39cdd33e9570c7aff97e28ba31c2b.cab",
+                  "sha1": "87d6bc65b7b39cdd33e9570c7aff97e28ba31c2b"
                 }
               ],
-              "size_mb": 174.0,
-              "release_date": "2026-09-22"
+              "size_mb": 185.0,
+              "release_date": "2026-10-13"
             },
             "setup": {
-              "kb": "KB5127216",
-              "title": "2026-09 Setup Dynamic Update for Windows 11, version 25H2 for x64-based Systems (KB5127216)",
-              "release_notes": "https://support.microsoft.com/help/5127216",
-              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=4458688f-7272-47d0-8f33-ad5ee6337305",
-              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/04ea1c76-0bd2-4e51-b044-b0979fe0d701/public/windows11.0-kb5127216-x64_902338a716924a73f0d119a22fb104d7abceb161.cab",
-              "sha1": "902338a716924a73f0d119a22fb104d7abceb161",
+              "kb": "KB5127650",
+              "title": "2026-10 Setup Dynamic Update for Windows 11, version 25H2 for x64-based Systems (KB5127650)",
+              "release_notes": "https://support.microsoft.com/help/5127650",
+              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=193685d7-3cb8-4c6c-a56b-e31cff024726",
+              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/019a2022-8528-44c7-ae4b-8089ccd0e996/public/windows11.0-kb5127650-x64_1e7fa0c7483710dcab60ee0ef8fe15cfeabd190f.cab",
+              "sha1": "1e7fa0c7483710dcab60ee0ef8fe15cfeabd190f",
               "files": [
                 {
-                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/04ea1c76-0bd2-4e51-b044-b0979fe0d701/public/windows11.0-kb5127216-x64_902338a716924a73f0d119a22fb104d7abceb161.cab",
-                  "sha1": "902338a716924a73f0d119a22fb104d7abceb161"
+                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/019a2022-8528-44c7-ae4b-8089ccd0e996/public/windows11.0-kb5127650-x64_1e7fa0c7483710dcab60ee0ef8fe15cfeabd190f.cab",
+                  "sha1": "1e7fa0c7483710dcab60ee0ef8fe15cfeabd190f"
                 }
               ],
-              "size_mb": 17.0,
-              "release_date": "2026-09-22"
+              "size_mb": 18.0,
+              "release_date": "2026-10-13"
             }
           },
           "defender": {
             "kb": "KB4052623",
-            "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26080.4) - Current Channel (Broad)",
+            "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26090.9) - Current Channel (Broad)",
             "release_notes": "https://support.microsoft.com/help/4052623",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=dc8cd110-fb75-45bb-8379-859df2409586",
-            "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.amd64fre_314c7bfdd3e57abdf156b40c4f97af62530f63a1.exe",
-            "sha1": "314c7bfdd3e57abdf156b40c4f97af62530f63a1",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=a79946d7-a153-49fb-b37c-ca0c60222db6",
+            "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.amd64fre_83de113d5585b3468d68cc4b94c2a5de51d80d1b.exe",
+            "sha1": "83de113d5585b3468d68cc4b94c2a5de51d80d1b",
             "files": [
               {
-                "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.amd64fre_314c7bfdd3e57abdf156b40c4f97af62530f63a1.exe",
-                "sha1": "314c7bfdd3e57abdf156b40c4f97af62530f63a1"
+                "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.amd64fre_83de113d5585b3468d68cc4b94c2a5de51d80d1b.exe",
+                "sha1": "83de113d5585b3468d68cc4b94c2a5de51d80d1b"
               }
             ],
-            "size_mb": 89.0,
-            "release_date": "2026-09-17"
+            "size_mb": 91.0,
+            "release_date": "2026-10-12"
           }
         },
         "arm64": {
           "cu": {
-            "kb": "KB5129195",
-            "title": "2026-09 Cumulative Update for Windows 11, version 25H2 for arm64-based Systems (KB5129195) (26200.9457)",
-            "release_notes": "https://support.microsoft.com/help/5129195",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=6e06682e-94e4-41c6-9446-89fee2744961",
-            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/3750a920-b998-4242-8fed-32423df59284/public/windows11.0-kb5129195-arm64_e6b0a7f8c8cacdf87e8da1a01fe073934a0002b4.msu",
-            "sha1": "e6b0a7f8c8cacdf87e8da1a01fe073934a0002b4",
+            "kb": "KB5127648",
+            "title": "2026-10 Cumulative Update for Windows 11, version 25H2 for arm64-based Systems (KB5127648) (26200.9711)",
+            "release_notes": "https://support.microsoft.com/help/5127648",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=d053f495-78e6-48d8-9405-8c60ebd75a0b",
+            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/037a7452-6152-4e16-a6bc-e495dbb16e50/public/windows11.0-kb5127648-arm64_630ff4173d7728e4123461cba51b63a6ec53df40.msu",
+            "sha1": "630ff4173d7728e4123461cba51b63a6ec53df40",
             "files": [
               {
-                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/3750a920-b998-4242-8fed-32423df59284/public/windows11.0-kb5129195-arm64_e6b0a7f8c8cacdf87e8da1a01fe073934a0002b4.msu",
-                "sha1": "e6b0a7f8c8cacdf87e8da1a01fe073934a0002b4"
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/037a7452-6152-4e16-a6bc-e495dbb16e50/public/windows11.0-kb5127648-arm64_630ff4173d7728e4123461cba51b63a6ec53df40.msu",
+                "sha1": "630ff4173d7728e4123461cba51b63a6ec53df40"
               },
               {
                 "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f263aa64-f367-42f0-9cad-328f342b93f7/public/windows11.0-kb5043080-arm64_df540a05f9b118e339c5520f4090bb5d450f090b.msu",
                 "sha1": "df540a05f9b118e339c5520f4090bb5d450f090b"
               }
             ],
-            "size_mb": 4770.0,
-            "release_date": "2026-09-14"
+            "size_mb": 4906.0,
+            "release_date": "2026-10-13"
           },
           "net": {
-            "kb": "KB5126052",
-            "title": "2026-09 Cumulative Update for .NET Framework 3.5 and 4.8.1 for Windows 11, version 25H2 for arm64 (KB5126052)",
-            "release_notes": "https://support.microsoft.com/help/5126052",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=3bffb023-6b74-4f07-9144-125d4a835224",
-            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/636c6186-6e83-481d-93a4-5131c454063f/public/windows11.0-kb5126052-arm64-ndp481_5678046ea7559df51f73ef43a2965b34717839f7.msu",
-            "sha1": "5678046ea7559df51f73ef43a2965b34717839f7",
+            "kb": "KB5127690",
+            "title": "2026-10 Cumulative Update for .NET Framework 3.5 and 4.8.1 for Windows 11, version 25H2 for arm64 (KB5127690)",
+            "release_notes": "https://support.microsoft.com/help/5127690",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=f74f2ecf-eab2-466a-8ed5-e66c3a7420f3",
+            "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/bb8658ec-7bb2-449a-8bdd-a32736244416/public/windows11.0-kb5127690-arm64-ndp481_dc35585de600aee917ac0b63ebe645b214cc45b7.msu",
+            "sha1": "dc35585de600aee917ac0b63ebe645b214cc45b7",
             "files": [
               {
-                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/636c6186-6e83-481d-93a4-5131c454063f/public/windows11.0-kb5126052-arm64-ndp481_5678046ea7559df51f73ef43a2965b34717839f7.msu",
-                "sha1": "5678046ea7559df51f73ef43a2965b34717839f7"
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/bb8658ec-7bb2-449a-8bdd-a32736244416/public/windows11.0-kb5127690-arm64-ndp481_dc35585de600aee917ac0b63ebe645b214cc45b7.msu",
+                "sha1": "dc35585de600aee917ac0b63ebe645b214cc45b7"
               }
             ],
             "size_mb": 111.0,
-            "release_date": "2026-09-08"
+            "release_date": "2026-10-13"
           },
           "dynamic": {
             "safeos": {
-              "kb": "KB5125758",
-              "title": "2026-09 Safe OS Dynamic Update for Windows 11, version 25H2 for arm64-based Systems (KB5125758)",
-              "release_notes": "https://support.microsoft.com/help/5125758",
-              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=2e61c792-82d6-49ec-90bf-9aff7a5b9bf2",
-              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a4125eb1-23f3-4d07-a19a-f7b2e9a19cf2/public/windows11.0-kb5125758-arm64_0a191dcfd1de35de1917d6927f923cd4ed933a53.cab",
-              "sha1": "0a191dcfd1de35de1917d6927f923cd4ed933a53",
+              "kb": "KB5127654",
+              "title": "2026-10 Safe OS Dynamic Update for Windows 11, version 25H2 for arm64-based Systems (KB5127654)",
+              "release_notes": "https://support.microsoft.com/help/5127654",
+              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=deeb6ded-f6ce-4f40-9444-90cdb6b7810a",
+              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/29d49811-89d0-4766-a039-6a46784efbac/public/windows11.0-kb5127654-arm64_887d395de4d75fb20fb9c7855e71f16d6b655605.cab",
+              "sha1": "887d395de4d75fb20fb9c7855e71f16d6b655605",
               "files": [
                 {
-                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a4125eb1-23f3-4d07-a19a-f7b2e9a19cf2/public/windows11.0-kb5125758-arm64_0a191dcfd1de35de1917d6927f923cd4ed933a53.cab",
-                  "sha1": "0a191dcfd1de35de1917d6927f923cd4ed933a53"
+                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/29d49811-89d0-4766-a039-6a46784efbac/public/windows11.0-kb5127654-arm64_887d395de4d75fb20fb9c7855e71f16d6b655605.cab",
+                  "sha1": "887d395de4d75fb20fb9c7855e71f16d6b655605"
                 }
               ],
-              "size_mb": 205.0,
-              "release_date": "2026-09-22"
+              "size_mb": 222.0,
+              "release_date": "2026-10-13"
             },
             "setup": {
-              "kb": "KB5127216",
-              "title": "2026-09 Setup Dynamic Update for Windows 11, version 25H2 for arm64-based Systems (KB5127216)",
-              "release_notes": "https://support.microsoft.com/help/5127216",
-              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=f93aa884-0c13-424f-b724-5505f60746e9",
-              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/9e7b66b4-103d-4af6-ab00-ba1d7ef0a780/public/windows11.0-kb5127216-arm64_0ea2c888e7926305c947f29277a28e0074258e6e.cab",
-              "sha1": "0ea2c888e7926305c947f29277a28e0074258e6e",
+              "kb": "KB5127650",
+              "title": "2026-10 Setup Dynamic Update for Windows 11, version 25H2 for arm64-based Systems (KB5127650)",
+              "release_notes": "https://support.microsoft.com/help/5127650",
+              "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=38fd2812-f8a2-48d5-80c6-43d40b66bf4a",
+              "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a4091701-b219-4337-a718-cfd817a0a8a8/public/windows11.0-kb5127650-arm64_62a6522cb9f571370cf29ade6758ce1e684fc5a8.cab",
+              "sha1": "62a6522cb9f571370cf29ade6758ce1e684fc5a8",
               "files": [
                 {
-                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/9e7b66b4-103d-4af6-ab00-ba1d7ef0a780/public/windows11.0-kb5127216-arm64_0ea2c888e7926305c947f29277a28e0074258e6e.cab",
-                  "sha1": "0ea2c888e7926305c947f29277a28e0074258e6e"
+                  "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a4091701-b219-4337-a718-cfd817a0a8a8/public/windows11.0-kb5127650-arm64_62a6522cb9f571370cf29ade6758ce1e684fc5a8.cab",
+                  "sha1": "62a6522cb9f571370cf29ade6758ce1e684fc5a8"
                 }
               ],
               "size_mb": 17.0,
-              "release_date": "2026-09-22"
+              "release_date": "2026-10-13"
             }
           },
           "defender": {
             "kb": "KB4052623",
-            "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26080.4) - Current Channel (Broad)",
+            "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26090.9) - Current Channel (Broad)",
             "release_notes": "https://support.microsoft.com/help/4052623",
-            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=dc8cd110-fb75-45bb-8379-859df2409586",
-            "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.arm64fre_bd2a030040b4c71f8265ed53bfe2a639e071b96d.exe",
-            "sha1": "bd2a030040b4c71f8265ed53bfe2a639e071b96d",
+            "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=a79946d7-a153-49fb-b37c-ca0c60222db6",
+            "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.arm64fre_352ac666bfc9c583872f1659f574e5ed3eabd233.exe",
+            "sha1": "352ac666bfc9c583872f1659f574e5ed3eabd233",
             "files": [
               {
-                "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.arm64fre_bd2a030040b4c71f8265ed53bfe2a639e071b96d.exe",
-                "sha1": "bd2a030040b4c71f8265ed53bfe2a639e071b96d"
+                "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.arm64fre_352ac666bfc9c583872f1659f574e5ed3eabd233.exe",
+                "sha1": "352ac666bfc9c583872f1659f574e5ed3eabd233"
               }
             ],
-            "size_mb": 89.0,
-            "release_date": "2026-09-17"
+            "size_mb": 91.0,
+            "release_date": "2026-10-12"
           }
         }
       }
