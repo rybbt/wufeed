@@ -4,7 +4,7 @@
   "build_number": "26100",
   "supported": true,
   "eol_date": null,
-  "generated": "2026-10-21",
+  "generated": "2026-10-28",
   "architectures": [
     "x64",
     "arm64"
@@ -12,24 +12,24 @@
   "updates": {
     "x64": {
       "cu": {
-        "kb": "KB5127648",
-        "title": "2026-10 Cumulative Update for Windows 11, version 24H2 for x64-based Systems (KB5127648) (26100.9711)",
-        "release_notes": "https://support.microsoft.com/help/5127648",
-        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=8d5353b2-7db6-451a-a42c-2dc9c486372d",
-        "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4225b261-8248-43e5-a808-34f3faafe3f6/public/windows11.0-kb5127648-x64_2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09.msu",
-        "sha1": "2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09",
+        "kb": "KB5134133",
+        "title": "2026-10 Cumulative Update for Windows 11, version 24H2 for x64-based Systems (KB5134133) (26100.9725)",
+        "release_notes": "https://support.microsoft.com/help/5134133",
+        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=f5c01ac0-c31e-4aa5-8d39-85b0384ac9ab",
+        "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/37e2df4b-2f39-44bf-b7d7-c75ae43cf4c8/public/windows11.0-kb5134133-x64_0e59d2f988a5422dfb489e97faed3b3835fc7568.msu",
+        "sha1": "0e59d2f988a5422dfb489e97faed3b3835fc7568",
         "files": [
           {
-            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4225b261-8248-43e5-a808-34f3faafe3f6/public/windows11.0-kb5127648-x64_2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09.msu",
-            "sha1": "2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09"
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/37e2df4b-2f39-44bf-b7d7-c75ae43cf4c8/public/windows11.0-kb5134133-x64_0e59d2f988a5422dfb489e97faed3b3835fc7568.msu",
+            "sha1": "0e59d2f988a5422dfb489e97faed3b3835fc7568"
           },
           {
             "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d8b7f92b-bd35-4b4c-96e5-46ce984b31e0/public/windows11.0-kb5043080-x64_953449672073f8fb99badb4cc6d5d7849b9c83e8.msu",
             "sha1": "953449672073f8fb99badb4cc6d5d7849b9c83e8"
           }
         ],
-        "size_mb": 5063.0,
-        "release_date": "2026-10-13"
+        "size_mb": 5162.0,
+        "release_date": "2026-10-26"
       },
       "net": {
         "kb": "KB5127690",
@@ -83,41 +83,41 @@
       },
       "defender": {
         "kb": "KB4052623",
-        "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26090.9) - Current Channel (Broad)",
+        "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26100.4) - Current Channel (Broad)",
         "release_notes": "https://support.microsoft.com/help/4052623",
-        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=a79946d7-a153-49fb-b37c-ca0c60222db6",
-        "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.amd64fre_83de113d5585b3468d68cc4b94c2a5de51d80d1b.exe",
-        "sha1": "83de113d5585b3468d68cc4b94c2a5de51d80d1b",
+        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=384c1ff3-d753-4745-9bae-0a94011ce5a5",
+        "download_url": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/defu/2026/10/updateplatform.amd64fre_52a51a30b2dacabcc93c72774d83fefe22b35a87.exe",
+        "sha1": "52a51a30b2dacabcc93c72774d83fefe22b35a87",
         "files": [
           {
-            "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.amd64fre_83de113d5585b3468d68cc4b94c2a5de51d80d1b.exe",
-            "sha1": "83de113d5585b3468d68cc4b94c2a5de51d80d1b"
+            "url": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/defu/2026/10/updateplatform.amd64fre_52a51a30b2dacabcc93c72774d83fefe22b35a87.exe",
+            "sha1": "52a51a30b2dacabcc93c72774d83fefe22b35a87"
           }
         ],
-        "size_mb": 91.0,
-        "release_date": "2026-10-12"
+        "size_mb": 92.0,
+        "release_date": "2026-10-27"
       }
     },
     "arm64": {
       "cu": {
-        "kb": "KB5127648",
-        "title": "2026-10 Cumulative Update for Windows 11, version 24H2 for arm64-based Systems (KB5127648) (26100.9711)",
-        "release_notes": "https://support.microsoft.com/help/5127648",
-        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=c5d48552-b81f-4fe0-a2dc-483dd78aeaf6",
-        "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/037a7452-6152-4e16-a6bc-e495dbb16e50/public/windows11.0-kb5127648-arm64_630ff4173d7728e4123461cba51b63a6ec53df40.msu",
-        "sha1": "630ff4173d7728e4123461cba51b63a6ec53df40",
+        "kb": "KB5134133",
+        "title": "2026-10 Cumulative Update for Windows 11, version 24H2 for arm64-based Systems (KB5134133) (26100.9725)",
+        "release_notes": "https://support.microsoft.com/help/5134133",
+        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=0733ced4-7471-4f1b-8390-3a2e74d0d5cb",
+        "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8e9f8db6-fcab-4b47-bb61-eb40c6ebb286/public/windows11.0-kb5134133-arm64_a441364165aee90518f1e910bddbf508e9943c28.msu",
+        "sha1": "a441364165aee90518f1e910bddbf508e9943c28",
         "files": [
           {
-            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/037a7452-6152-4e16-a6bc-e495dbb16e50/public/windows11.0-kb5127648-arm64_630ff4173d7728e4123461cba51b63a6ec53df40.msu",
-            "sha1": "630ff4173d7728e4123461cba51b63a6ec53df40"
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8e9f8db6-fcab-4b47-bb61-eb40c6ebb286/public/windows11.0-kb5134133-arm64_a441364165aee90518f1e910bddbf508e9943c28.msu",
+            "sha1": "a441364165aee90518f1e910bddbf508e9943c28"
           },
           {
             "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f263aa64-f367-42f0-9cad-328f342b93f7/public/windows11.0-kb5043080-arm64_df540a05f9b118e339c5520f4090bb5d450f090b.msu",
             "sha1": "df540a05f9b118e339c5520f4090bb5d450f090b"
           }
         ],
-        "size_mb": 4906.0,
-        "release_date": "2026-10-13"
+        "size_mb": 4976.0,
+        "release_date": "2026-10-26"
       },
       "net": {
         "kb": "KB5127690",
@@ -171,19 +171,19 @@
       },
       "defender": {
         "kb": "KB4052623",
-        "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26090.9) - Current Channel (Broad)",
+        "title": "Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.26100.4) - Current Channel (Broad)",
         "release_notes": "https://support.microsoft.com/help/4052623",
-        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=a79946d7-a153-49fb-b37c-ca0c60222db6",
-        "download_url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.arm64fre_352ac666bfc9c583872f1659f574e5ed3eabd233.exe",
-        "sha1": "352ac666bfc9c583872f1659f574e5ed3eabd233",
+        "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=384c1ff3-d753-4745-9bae-0a94011ce5a5",
+        "download_url": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/defu/2026/10/updateplatform.arm64fre_21d997861a7728a78b32a93f2b22755bdd1eb77f.exe",
+        "sha1": "21d997861a7728a78b32a93f2b22755bdd1eb77f",
         "files": [
           {
-            "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/defu/2026/09/updateplatform.arm64fre_352ac666bfc9c583872f1659f574e5ed3eabd233.exe",
-            "sha1": "352ac666bfc9c583872f1659f574e5ed3eabd233"
+            "url": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/defu/2026/10/updateplatform.arm64fre_21d997861a7728a78b32a93f2b22755bdd1eb77f.exe",
+            "sha1": "21d997861a7728a78b32a93f2b22755bdd1eb77f"
           }
         ],
-        "size_mb": 91.0,
-        "release_date": "2026-10-12"
+        "size_mb": 92.0,
+        "release_date": "2026-10-27"
       }
     }
   }
