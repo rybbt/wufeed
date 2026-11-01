@@ -12,6 +12,7 @@ by product under `docs/<product>/`.
 | Windows 11 (all builds) | `https://wufeed.rybbt.com/win11/updates.json` |
 | Windows 11 24H2 | `https://wufeed.rybbt.com/win11/24H2.json` |
 | Windows 11 25H2 | `https://wufeed.rybbt.com/win11/25H2.json` |
+| Windows 11 26H2 | `https://wufeed.rybbt.com/win11/26H2.json` |
 
 `index.json` lists every product feed:
 
@@ -169,7 +170,8 @@ curl -s https://wufeed.rybbt.com/win11/24H2.json | jq -r '.updates.arm64.cu.down
       "architectures": ["x64", "arm64"],
       "builds": [
         { "name": "24H2", "build_number": "26100", "supported": true },
-        { "name": "25H2", "build_number": "26200", "supported": true }
+        { "name": "25H2", "build_number": "26200", "supported": true },
+        { "name": "26H2", "build_number": "26300", "supported": true }
       ]
     }
   ]
