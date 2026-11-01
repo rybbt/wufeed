@@ -1,8 +1,10 @@
 # wufeed — Update Feed
 
 A machine-readable feed of the latest Windows updates per build and architecture,
-regenerated after each Patch Tuesday and published to GitHub Pages. Feeds are namespaced
-by product under `docs/<product>/`.
+published to GitHub Pages. Feeds are namespaced by product under `docs/<product>/`.
+The feed is regenerated weekly (Wednesday 18:00 UTC) and on the 17th of each month at
+02:00 UTC, at least two days after Patch Tuesday, so packages the catalog publishes late
+are in.
 
 ## Feed URLs
 
