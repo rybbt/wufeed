@@ -4,7 +4,7 @@
   "build_number": "26100",
   "supported": true,
   "eol_date": null,
-  "generated": "2026-10-28",
+  "generated": "2026-11-01",
   "architectures": [
     "x64",
     "arm64"
@@ -49,35 +49,35 @@
       },
       "dynamic": {
         "safeos": {
-          "kb": "KB5126660",
-          "title": "2026-10 Safe OS Dynamic Update for Microsoft server operating system version 24H2 for x64-based Systems (KB5126660)",
-          "release_notes": "https://support.microsoft.com/help/5126660",
-          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=23852af5-daee-4e1b-9098-5f08d9d48822",
-          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/90c8ab9b-d635-4f9d-acc3-34c28cf58205/public/windows11.0-kb5126660-x64_a9a10df97394035d5b319a76fc623747a0d0bf3e.cab",
-          "sha1": "a9a10df97394035d5b319a76fc623747a0d0bf3e",
+          "kb": "KB5127654",
+          "title": "2026-10 Safe OS Dynamic Update for Windows 11, version 24H2 for x64-based Systems (KB5127654)",
+          "release_notes": "https://support.microsoft.com/help/5127654",
+          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=26f12550-4e5c-48af-9a01-6eb26efd121d",
+          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f8397943-4d37-43cb-a167-74b567556f37/public/windows11.0-kb5127654-x64_87d6bc65b7b39cdd33e9570c7aff97e28ba31c2b.cab",
+          "sha1": "87d6bc65b7b39cdd33e9570c7aff97e28ba31c2b",
           "files": [
             {
-              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/90c8ab9b-d635-4f9d-acc3-34c28cf58205/public/windows11.0-kb5126660-x64_a9a10df97394035d5b319a76fc623747a0d0bf3e.cab",
-              "sha1": "a9a10df97394035d5b319a76fc623747a0d0bf3e"
+              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f8397943-4d37-43cb-a167-74b567556f37/public/windows11.0-kb5127654-x64_87d6bc65b7b39cdd33e9570c7aff97e28ba31c2b.cab",
+              "sha1": "87d6bc65b7b39cdd33e9570c7aff97e28ba31c2b"
             }
           ],
-          "size_mb": 165.0,
+          "size_mb": 185.0,
           "release_date": "2026-10-13"
         },
         "setup": {
-          "kb": "KB5127359",
-          "title": "2026-10 Setup Dynamic Update for Microsoft server operating system version 24H2 for x64-based Systems (KB5127359)",
-          "release_notes": "https://support.microsoft.com/help/5127359",
-          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=11fd5fd7-2d72-4eb8-b669-71e52ebffc91",
-          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/80770849-cfb0-49d6-b64d-82df54b65663/public/windows11.0-kb5127359-x64_5083811829660154413d2f031f6c7f813924b9d0.cab",
-          "sha1": "5083811829660154413d2f031f6c7f813924b9d0",
+          "kb": "KB5127650",
+          "title": "2026-10 Setup Dynamic Update for Windows 11, version 24H2 for x64-based Systems (KB5127650)",
+          "release_notes": "https://support.microsoft.com/help/5127650",
+          "catalog_url": "https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=2e51c023-7c97-4889-8b05-bb53110de2f1",
+          "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/019a2022-8528-44c7-ae4b-8089ccd0e996/public/windows11.0-kb5127650-x64_1e7fa0c7483710dcab60ee0ef8fe15cfeabd190f.cab",
+          "sha1": "1e7fa0c7483710dcab60ee0ef8fe15cfeabd190f",
           "files": [
             {
-              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/80770849-cfb0-49d6-b64d-82df54b65663/public/windows11.0-kb5127359-x64_5083811829660154413d2f031f6c7f813924b9d0.cab",
-              "sha1": "5083811829660154413d2f031f6c7f813924b9d0"
+              "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/019a2022-8528-44c7-ae4b-8089ccd0e996/public/windows11.0-kb5127650-x64_1e7fa0c7483710dcab60ee0ef8fe15cfeabd190f.cab",
+              "sha1": "1e7fa0c7483710dcab60ee0ef8fe15cfeabd190f"
             }
           ],
-          "size_mb": 16.0,
+          "size_mb": 18.0,
           "release_date": "2026-10-13"
         }
       },
