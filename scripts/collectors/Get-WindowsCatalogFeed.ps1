@@ -262,14 +262,21 @@ function Get-ArchUpdates {
     $net = Get-BuildUpdate -Arch $Arch -Label "$h/$Arch/net" `
         -Query @{ GetFramework = $true; OperatingSystem = 'Windows 11'; Version = $h; Architecture = $Arch }
 
-    # Dynamic Updates — Safe OS + Setup, filtered to this build+arch catalog row. Best-effort.
+    # Dynamic Updates — Safe OS + Setup, filtered to this product+build+arch catalog row.
+    # Best-effort. The title must name Windows 11: Windows Server 2025 shares build 26100
+    # and its packages are titled "... Microsoft server operating system version 24H2 for
+    # x64-based Systems", which a bare "version 24H2 for x64" also matches. Server Setup
+    # DUs carry a different Setup platform line, and Windows 11 Setup fails with
+    # 0xC1900100 when it loads one.
+    $dynTitle = "Windows 11, version $h for $Arch"
+
     $safeos = Get-BuildUpdate -Arch $Arch -Label "$h/$Arch/dynamic.safeos" `
         -Query @{ Search = 'Safe OS Dynamic Update'; IncludeDynamic = $true } `
-        -TitleMustMatch "version $h for $Arch"
+        -TitleMustMatch $dynTitle
 
     $setup = Get-BuildUpdate -Arch $Arch -Label "$h/$Arch/dynamic.setup" `
         -Query @{ Search = 'Setup Dynamic Update'; IncludeDynamic = $true } `
-        -TitleMustMatch "version $h for $Arch"
+        -TitleMustMatch $dynTitle
 
     # Defender antimalware platform — one GUID carries all arches; the file is picked
     # by $Arch. Best-effort.
