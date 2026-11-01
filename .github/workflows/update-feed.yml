@@ -2,13 +2,13 @@ name: Update Feed
 
 on:
   schedule:
-    - cron: '0 18 * * 3'    # weekly, Wednesday 18:00 UTC: the day after Patch Tuesday, and out-of-band updates
-    - cron: '0 2 17 * *'    # monthly, 17th 02:00 UTC: 2+ days after Patch Tuesday (day 8-14) for catalog publishing lag
-  workflow_dispatch:         # manual trigger
+    - cron: '0 18 * * 3' # weekly, Wednesday 18:00 UTC: the day after Patch Tuesday, and out-of-band updates
+    - cron: '0 2 17 * *' # monthly, 17th 02:00 UTC: 2+ days after Patch Tuesday (day 8-14) for catalog publishing lag
+  workflow_dispatch: # manual trigger
 
 permissions:
-  contents: write            # commit the regenerated feed
-  issues: write              # raise an issue on failure
+  contents: write # commit the regenerated feed
+  issues: write # raise an issue on failure
 
 jobs:
   generate:
