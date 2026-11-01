@@ -14,7 +14,11 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      # Push with the FEED_DEPLOY_KEY deploy key: it is the only bypass actor on
+      # the main ruleset (PR + signed commits), so the feed commit can land.
       - uses: actions/checkout@v4
+        with:
+          ssh-key: ${{ secrets.FEED_DEPLOY_KEY }}
 
       - name: Generate feed
         shell: pwsh
