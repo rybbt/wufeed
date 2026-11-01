@@ -11,7 +11,8 @@
       "architectures": [ "x64", "arm64" ],
       "builds": [
         { "name": "24H2", "build_number": "26100", "supported": true },
-        { "name": "25H2", "build_number": "26200", "supported": true }
+        { "name": "25H2", "build_number": "26200", "supported": true },
+        { "name": "26H2", "build_number": "26300", "supported": true }
       ]
     }
   ]
