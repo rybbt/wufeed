@@ -1,0 +1,22 @@
+name: format
+
+# Fails a PR whose Markdown, YAML or JSON is not Prettier-formatted.
+# docs/ (the generated feed) is excluded in .prettierignore.
+# Fix locally: npx prettier@3.9.10 --write .
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prettier check
+        run: npx --yes prettier@3.9.10 --check .

@@ -8,13 +8,13 @@ are in.
 
 ## Feed URLs
 
-| Feed | URL |
-| --- | --- |
-| Index (all products) | `https://wufeed.rybbt.com/index.json` |
+| Feed                    | URL                                           |
+| ----------------------- | --------------------------------------------- |
+| Index (all products)    | `https://wufeed.rybbt.com/index.json`         |
 | Windows 11 (all builds) | `https://wufeed.rybbt.com/win11/updates.json` |
-| Windows 11 24H2 | `https://wufeed.rybbt.com/win11/24H2.json` |
-| Windows 11 25H2 | `https://wufeed.rybbt.com/win11/25H2.json` |
-| Windows 11 26H2 | `https://wufeed.rybbt.com/win11/26H2.json` |
+| Windows 11 24H2         | `https://wufeed.rybbt.com/win11/24H2.json`    |
+| Windows 11 25H2         | `https://wufeed.rybbt.com/win11/25H2.json`    |
+| Windows 11 26H2         | `https://wufeed.rybbt.com/win11/26H2.json`    |
 
 `index.json` lists every product feed:
 
@@ -22,9 +22,12 @@ are in.
 {
   "generated": "2026-07-09",
   "feeds": [
-    { "id": "win11", "name": "Windows 11",
+    {
+      "id": "win11",
+      "name": "Windows 11",
       "url": "https://wufeed.rybbt.com/win11/updates.json",
-      "architectures": ["x64", "arm64"] }
+      "architectures": ["x64", "arm64"]
+    }
   ]
 }
 ```
@@ -69,8 +72,14 @@ page for `eol_date`.
         "download_url": "https://catalog.sf.dl.delivery.mp.microsoft.com/.../windows11.0-kb5094126-x64_....msu",
         "sha1": "1b7fae96...",
         "files": [
-          { "url": ".../windows11.0-kb5094126-x64_....msu", "sha1": "1b7fae96..." },
-          { "url": ".../windows11.0-kb5043080-x64_....msu", "sha1": "95344967..." }
+          {
+            "url": ".../windows11.0-kb5094126-x64_....msu",
+            "sha1": "1b7fae96..."
+          },
+          {
+            "url": ".../windows11.0-kb5043080-x64_....msu",
+            "sha1": "95344967..."
+          }
         ],
         "size_mb": 5384,
         "release_date": "2026-06-09"
@@ -78,7 +87,7 @@ page for `eol_date`.
       "net": { "...": "..." },
       "dynamic": {
         "safeos": { "kb": "KB5095615", "size_mb": 145, "...": "..." },
-        "setup":  { "kb": "KB5102558", "size_mb": 17,  "...": "..." }
+        "setup": { "kb": "KB5102558", "size_mb": 17, "...": "..." }
       },
       "defender": { "...": "..." }
     },
@@ -189,6 +198,12 @@ curl -s https://wufeed.rybbt.com/win11/24H2.json | jq -r '.updates.arm64.cu.down
 - **Module version**: `mscataloglts_version` is pinned and updated by editing the field.
   `check-module-version.yml` runs weekly and opens an issue when a newer version is on
   the PowerShell Gallery.
+
+## Formatting
+
+Markdown, YAML and JSON are formatted with [Prettier](https://prettier.io)
+(`.prettierrc.json`); the generated feed under `docs/` is excluded. The `format`
+workflow checks every pull request. Fix locally with `npx prettier@3.9.10 --write .`.
 
 ## Attribution and disclaimer
 
