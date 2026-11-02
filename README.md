@@ -162,6 +162,8 @@ curl -s https://wufeed.rybbt.com/win11/24H2.json | jq -r '.updates.arm64.cu.down
    and writes `docs/<product>/`. The orchestrator writes `docs/index.json`.
 4. A missing Cumulative Update aborts the run (non-zero exit, no commit) and opens a
    failure issue; other types are recorded as `null` when absent.
+5. When `docs/` changes, the job opens a pull request with a GitHub-signed commit and
+   starts the `format` check on it. The feed is published when the pull request is merged.
 
 ## Configuration
 
