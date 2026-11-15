@@ -4,7 +4,7 @@
   "build_number": "26300",
   "supported": true,
   "eol_date": "2028-10-10",
-  "generated": "2026-11-02",
+  "generated": "2026-11-04",
   "architectures": [
     "x64",
     "arm64"
